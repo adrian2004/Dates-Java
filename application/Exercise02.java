@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class Exercise02 {
 	
 	public static void main(String[] args) {
-		
+		//Write a Java program to get and display information (year, month, day, hour, minute) of a default calendar.
 		Calendar cal = Calendar.getInstance();
 		
 		System.out.println("Year: " + cal.get(Calendar.YEAR));

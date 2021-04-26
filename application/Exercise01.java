@@ -5,6 +5,7 @@ import java.util.Calendar;
 public class Exercise01 {
 
 	public static void main(String[] args) {
+		// Write a Java program to create a Date object using the Calendar class.
 		Calendar cal = Calendar.getInstance();
 
 		cal.set(Calendar.DAY_OF_MONTH, 12);
